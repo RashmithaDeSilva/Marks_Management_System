@@ -32,7 +32,7 @@ def getOutcome(passMarks, failMarks):
         print("Progress (module trailer)\n")
         return 2
 
-    elif passMarks >= 60:
+    elif failMarks <= 79:
         print("Do not Progress - module retriever\n")
         return 3
 
